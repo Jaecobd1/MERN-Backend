@@ -21,7 +21,6 @@ mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: tr
     .then(() => app.listen(PORT, () => console.log(`Server Running on Port: ${PORT}`)))
     .catch((error) => console.log(error.message));
 
-mongoose.set('useFindAndModify', false);
 
 
 //pass lhENRxQYL0C0ZTxp
